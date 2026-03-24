@@ -1,0 +1,15 @@
+Source: oxyos-shelf
+Section: x11
+Priority: optional
+Maintainer: OxyHQ <hello@oxy.so>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 3.9.5
+Homepage: https://os.oxy.so
+
+Package: oxyos-shelf
+Architecture: all
+Depends: ${misc:Depends}, python3, python3-gi, gir1.2-gtk-3.0
+Description: ChromeOS-style shelf for OxyOS
+ A bottom dock panel with app launcher, pinned application icons,
+ and a system tray with quick settings. Designed for use with Openbox
+ on X11.
